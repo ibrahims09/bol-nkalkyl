@@ -1,7 +1,7 @@
 #result {
-  display: block; /* Visa elementet */
-  margin-top: 10px; /* Lägg till önskad marginal ovanför resultatet */
-  color: black; /* Ändra färgen för tydlighet, välj önskad färg */
+  display: block;
+  margin-top: 10px; 
+  color: black; 
 }
 body{
   background-color: dimgray;
