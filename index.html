@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Bolånekalkylator</title>
+</head>
+<body>
+    <div class="calculator">
+        <label for="loanAmount">Lånebelopp:</label>
+        <input type="number" id="loanAmount" placeholder="Ange lånebelopp">
+        <label for="interestRate">Ränta (%):</label>
+        <input type="number" id="interestRate" placeholder="Ange ränta">
+        <label for="loanTerm">Lånetid (år):</label>
+        <input type="number" id="loanTerm" placeholder="Ange lånetid">
+        <button id="calculateButton">Beräkna</button>
+
+        <p id="result"></p>
+        <div id="totalränta"></div>
+    </div>
+    <div id="calk"></div>
+    <div id="monthlyInterestRate"></div>
+
+    <script src="index.js"></script>
+    <script src="index.ts"></script>
+</body>
+</html>
+
+
